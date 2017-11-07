@@ -1,0 +1,259 @@
+#j-header {
+  -webkit-transition: 0s;
+  -o-transition: 0s;
+  -moz-transition: 0s;
+  transition: 0s;
+}
+.header-bf{
+  height: 100px;
+	background-color: #000;
+	background-image: url(/arquivos/iconos_prebf.png);
+  background-repeat: repeat;
+	background-size: cover;
+}
+.logo-prebuenfin-header {
+  display: inline-block;
+}
+.logo-prebuenfin-header img{
+  width: 65px;
+  margin-left: 20px;
+  margin-top: 17px;
+  margin-right: 10px;
+}
+.clock-cont-header {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.flip-clock-label{
+	color: white;
+	font-size: 12px;
+}
+.flip-clock-divider .flip-clock-label{
+  right: -44px;
+}
+.flip-clock-divider.minutes .flip-clock-label {
+  right: -50px !important;
+}
+.flip-clock-divider.seconds .flip-clock-label {
+  right: -54px !important;
+}
+
+.clock-header{
+	width:100%;
+  display: -webkit-inline-box !important;
+}
+.flip-clock-wrapper ul{
+  width: 20px;
+  height: 30px
+}
+.flip-clock-wrapper ul li a div div.inn{
+  font-size: 24px;
+}
+.flip-clock-divider{
+  width: 10px;
+}
+.flip-clock-wrapper ul li{
+  line-height: 30px;
+  height: 100%;
+}
+.flip-clock-dot{
+  left: 2px;
+  width: 6px;
+  height: 6px;
+}
+.flip-clock-divider{
+  height: 40px;
+}
+.flip-clock-dot.top {
+  top: 10px;
+}
+.flip-clock-dot.bottom {
+  bottom: 10px;
+}
+
+.register-cont-header {
+    display: inline-block;
+    float: right;
+    margin: 30px 10px;
+}
+.textw-header {
+  line-height: initial;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+.text-cont-header {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  vertical-align: middle;
+}
+.btn-cont-header {
+  display: inline-block;
+}
+
+.modalRegBtn{
+	width: 200px;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 10px;
+  vertical-align: middle;
+  padding: 5px;
+  border-radius: 5px;
+  color: #FFF;
+  cursor: pointer;
+  border: none;
+  background : -moz-linear-gradient(0% 50% 0deg,rgba(204, 18, 29, 0.99) 6.24%,rgba(226, 6, 19, 0.98) 96.84%);
+  background : -webkit-linear-gradient(0deg, rgba(204, 18, 29, 0.99) 6.24%, rgba(226, 6, 19, 0.98) 96.84%);
+  background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0.0624,rgba(204, 18, 29, 0.99) ),color-stop(0.9684,rgba(226, 6, 19, 0.98) ));
+  background : -o-linear-gradient(0deg, rgba(204, 18, 29, 0.99) 6.24%, rgba(226, 6, 19, 0.98) 96.84%);
+  background : -ms-linear-gradient(0deg, rgba(204, 18, 29, 0.99) 6.24%, rgba(226, 6, 19, 0.98) 96.84%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#CC121D', endColorstr='#E20613' ,GradientType=0)";
+  background : linear-gradient(90deg, rgba(204, 18, 29, 0.99) 6.24%, rgba(226, 6, 19, 0.98) 96.84%);
+}
+
+@media screen and (max-width: 930px){
+
+  .modalRegBtn {
+    width: 200px;
+    font-size: 18px;
+    margin-left: 10px;
+  }
+
+  .text-cont-header {
+    display: block;
+  }
+  .register-cont-header {
+    margin: 5px 10px;
+  }
+  .textw-header {
+    vertical-align: top;
+  }
+
+
+}
+@media screen and (max-width: 620px){
+  .modalRegBtn {
+    font-size: 14px;
+    width: 130px;
+    margin-left: 0px;
+  }
+  .register-cont-header {
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+  .textw-header {
+    font-size: 14px;
+  }
+  .flip-clock-label {
+      font-size: 10px;
+  }
+  .flip-clock-divider .flip-clock-label{
+    right: -24px;
+  }
+  .flip-clock-divider.minutes .flip-clock-label {
+    right: -29px !important;
+  }
+  .flip-clock-divider.seconds .flip-clock-label {
+    right: -28px !important;
+  }
+
+  .flip-clock-wrapper ul{
+    width: 15px;
+    height: 20px
+  }
+  .flip-clock-wrapper ul li a div div.inn{
+    font-size: 12px;
+  }
+  .flip-clock-divider{
+    height: 20px;
+  }
+  .flip-clock-wrapper ul {
+    margin: 2px;
+  }
+  .flip-clock-wrapper ul li{
+    line-height: 20px;
+    height: 100%;
+  }
+  .flip-clock-dot{
+    left: 2px;
+    width: 4px;
+    height: 4px;
+  }
+  .flip-clock-dot.top {
+    top: 4px;
+  }
+  .flip-clock-dot.bottom {
+    bottom: 4px;
+  }
+}
+
+
+@media screen and (max-width: 470px){
+  .modalRegBtn {
+    width: 80px;
+    font-size: 12px;
+    margin-left: 0px;
+  }
+  .textw-header {
+    display: none;
+  }
+  .logo-prebuenfin-header img {
+    width: 50px;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .header-bf {
+    height: 70px;
+  }
+  .register-cont-header {
+    margin-right: 3px;
+    margin-top: 15px;
+    margin-left: 10px;
+  }
+  .flip-clock-label {
+      font-size: 10px;
+  }
+  .flip-clock-divider .flip-clock-label{
+    right: -24px;
+  }
+  .flip-clock-divider.minutes .flip-clock-label {
+    right: -24px !important;
+  }
+  .flip-clock-divider.seconds .flip-clock-label {
+    right: -21px !important;
+  }
+
+  .flip-clock-wrapper ul{
+    width: 10px;
+    height: 15px
+  }
+  .flip-clock-wrapper ul li a div div.inn{
+    font-size: 10px;
+  }
+  .flip-clock-divider{
+    height: 20px;
+  }
+  .flip-clock-wrapper ul {
+    margin: 2px;
+  }
+  .flip-clock-wrapper ul li{
+    line-height: 15px;
+    height: 100%;
+  }
+  .flip-clock-dot{
+    left: 2px;
+    width: 4px;
+    height: 4px;
+  }
+  .flip-clock-dot.top {
+    top: 4px;
+  }
+  .flip-clock-dot.bottom {
+    bottom: 4px;
+  }
+
+}

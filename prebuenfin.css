@@ -1,0 +1,338 @@
+
+.bfc {
+  height:100%;
+  min-height:100%;/*for mozilla*/
+}
+.ClockCont{
+    margin: 0 auto;
+    width: 100%;
+	margin-top: 2.4em;
+    margin-bottom: 2em;
+}
+.textw{
+	margin-bottom: 10px;
+    display: block;
+}
+.bfc .textw,
+.flip-clock-label,
+.inputC label,
+.switch-title{
+	color: white;
+	font-size: 18px;
+}
+.inputC{
+	width:46%;
+	position: relative;
+	float: left;
+	margin: 20px 2%;
+}
+.inputC.right{
+	text-align: right;
+}
+.inputC.left{
+	text-align: left;
+}
+
+html>body .bfc {
+  height:auto;
+}
+.textc{
+	padding: 10px 0;
+	color: white;
+	margin: 0 auto;
+}
+.container-bf{
+	background-color: #000;
+	text-align: center;
+	background-image: url(/arquivos/iconos_prebf.png);
+    background-repeat: repeat;
+	background-size: cover;
+}
+.logo-prebuenfin{
+	padding-top: 3%;
+	padding-bottom: 25px;
+}
+.title-bf{
+	position: relative;
+	color: #fff;
+	font-size: 55px;
+	text-align: center;
+	font-family: arial;
+	font-weight: 100;
+
+}
+.inputW input{
+	width: 100%;
+	text-align:center;
+	max-width: 350px;
+	border-radius: 5px;
+	margin: 10px auto;
+	height: 35px;
+	border:none;
+}
+
+.clock{
+	width:100%;
+	max-width: 460px;
+    display: -webkit-inline-box !important;
+}
+.open-back{
+	background-color: #e31d1a;
+	width: 35px;
+	position: relative;
+	height: 35px;
+	margin: 30px auto 10px auto;
+	border-radius: 55px;
+	bottom: -5px;
+	cursor: pointer;;
+}
+
+.sendReg{
+	width: 200px;
+    font-size: 18px;
+    margin: 0 auto;
+    vertical-align: middle;
+    padding: 10px 5px;
+    border-radius: 5px;
+    color: #FFF;
+    margin-top: 25px;
+    cursor: pointer;
+    border: none;
+     background : -moz-linear-gradient(0% 50% 0deg,rgba(204, 18, 29, 0.99) 6.24%,rgba(226, 6, 19, 0.98) 96.84%);
+  background : -webkit-linear-gradient(0deg, rgba(204, 18, 29, 0.99) 6.24%, rgba(226, 6, 19, 0.98) 96.84%);
+  background : -webkit-gradient(linear,0% 50% ,100% 50% ,color-stop(0.0624,rgba(204, 18, 29, 0.99) ),color-stop(0.9684,rgba(226, 6, 19, 0.98) ));
+  background : -o-linear-gradient(0deg, rgba(204, 18, 29, 0.99) 6.24%, rgba(226, 6, 19, 0.98) 96.84%);
+  background : -ms-linear-gradient(0deg, rgba(204, 18, 29, 0.99) 6.24%, rgba(226, 6, 19, 0.98) 96.84%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#CC121D', endColorstr='#E20613' ,GradientType=0)";
+  background : linear-gradient(90deg, rgba(204, 18, 29, 0.99) 6.24%, rgba(226, 6, 19, 0.98) 96.84%);
+}
+
+.ofertasCont{
+display: -webkit-inline-box;
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	text-align:center;
+	color: white;
+    padding-top: 40px;
+	font-size: 18px;
+}
+.ofertasBack{
+	position:relative;
+    padding-top: 30px;
+}
+.ofertasCont .ofertaSem{
+	width: 30%;
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    position: relative;
+    float: left;
+    padding: 0 1.65%;
+}
+.alert{
+	position: fixed;
+    width: 50%;
+    top: 20%;
+    left: 0;
+    right: 0;
+    padding: 20px 0;
+    z-index: 99;
+    margin: 0 25%;
+    border-radius: 10px;
+}
+.alert-warning, .alert-danger{
+	color: white;
+	background: #de8f8e;
+}
+
+.alert-success{
+	color: white;
+	background: #89de89;
+}
+
+.alert-info{
+	color: white;
+	background: #73a6fd;
+}
+
+
+/*Switch*/
+.switch-field, .buttonS{
+	text-align: center;
+	}
+.switch-title {
+      margin-bottom: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.switch-field input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+
+}
+#switch_right::before{
+	width: 1px
+	position: relative;
+}
+.switch-field label {
+  display: inline-block;
+    width: 147px;
+    font-size: 24px;
+    font-weight: 600;
+  background-color: #FFF;
+  border-radius: 5px;
+  text-align: center;
+    margin: 0 5px;
+  padding: 6px 14px;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition:    all 0.1s ease-in-out;
+  -ms-transition:     all 0.1s ease-in-out;
+  -o-transition:      all 0.1s ease-in-out;
+  transition:         all 0.1s ease-in-out;
+
+    border: solid 2px #666666;
+}
+.flip-clock-divider.minutes .flip-clock-label {
+    right: -100px !important;}
+
+.switch-field label:hover {
+    cursor: pointer;
+}
+
+.switch-field input:checked + label {
+  border-color: #e31d1a;
+  text-decoration: underline;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;
+}
+
+:-ms-input-placeholder {
+   text-align: center;
+}
+.info-buenfin{
+	display: inline-block;
+	margin: 10px 15px;
+}
+.info-buenfin>div{
+	column-count: 2;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+	-o-column-count: 2;
+	font-size: 12px;
+}
+.info-buenfin h1{
+	font-size: 18px;
+    font-weight: 600;
+    color: #e31d1a;
+    margin: 2px 0 10px 0;
+}
+.info-buenfin h2{
+	font-size: 16px;
+    font-weight: 600;
+    color: #e31d1a;
+    margin: 3px 0 5px 0;
+}
+.info-buenfin p{
+	margin-bottom: 10px
+}
+
+
+
+
+@media screen and (max-width: 480px){
+	.flip-clock-wrapper ul{
+		width: 36px;
+
+    height: 60px
+	}
+	.flip-clock-wrapper ul li a div div.inn{
+		font-size: 45px;
+	}
+	.flip-clock-divider{
+		width: 10px;
+	}
+	.flip-clock-wrapper ul li{
+		line-height: 60px;
+		height: 100%;
+	}
+	.flip-clock-dot{
+		left: 2px;
+		width: 6px;
+		height: 6px;
+	}
+	.flip-clock-divider{
+		height: 85px;
+	}
+	.clock{
+		width: 297px;
+		margin: 0 auto;
+	}
+	.title-bf{
+		font-size:40px;
+	}
+	.ofertasBack{
+		padding-top: 0;
+	}
+	.ofertasCont{
+		padding-top: 20px;
+	}
+	.inputW input{
+		width: 92%;
+	}
+	.switch-field label{
+		width: 135px;
+	}
+	.flip-clock-wrapper ul li a div.up:after{
+		top: 35px;
+	}
+	.flip-clock-divider .flip-clock-label{
+		right: -67px;
+	}
+	.flip-clock-divider.minutes .flip-clock-label {
+    right: -76px !important;}
+
+}
+@media screen and (max-width: 600px) {
+	.info-buenfin>div{
+		column-count: 1;
+		-webkit-column-count:1;
+		-moz-column-count:1;
+		-o-column-count:1;
+	}
+}
+@media screen and (orientation:portrait) and (min-width: 480px) {
+    .logo-prebuenfin{
+		padding-top: 20%;
+	}
+	.open-back{
+		    width: 50px;
+    position: absolute;
+    height: 50px;
+    left: 47%;
+	}
+}
+@media screen and (orientation:portrait) and (max-width: 480px) {
+    .logo-prebuenfin{
+		padding-top: 10%;
+	}
+
+}
