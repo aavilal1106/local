@@ -1,6 +1,6 @@
 var breakMobile = 470;
 var buenFinHeight = $(window).width() <= breakMobile ? 70 : 100;
-
+console.log('Hello git');
 $(window).scroll(function() {
   var topHeader = buenFinHeight - window.scrollY;
   topHeader = topHeader < 0 ? 0 : topHeader;
