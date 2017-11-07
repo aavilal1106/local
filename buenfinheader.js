@@ -2,7 +2,7 @@ var breakMobile = 470;
 var buenFinHeight = $(window).width() <= breakMobile ? 70 : 100;
 console.log('Hello git');
 $(window).scroll(function() {
-  console.log('Hello git scroll');
+  console.log('Hello git scroll2');
   var topHeader = buenFinHeight - window.scrollY;
   topHeader = topHeader < 0 ? 0 : topHeader;
   $('#j-header').css('top', topHeader + 'px');
